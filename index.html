@@ -3,72 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <title>Moin</title>
-    <style>
-        body {
-            margin: 0;
-            padding: 20px;
-            background: linear-gradient(135deg, #ff00ff, #00ffff);
-            color: #000;
-            font-family: "Comic Sans MS", cursive, sans-serif;
-        }
-        .wrapper {
-            width: 900px;
-            margin: 0 auto;
-            border: 8px dashed yellow;
-            background: radial-gradient(circle, rgba(255,255,0,0.6), rgba(255,0,255,0.3));
-            box-shadow: 0 0 20px #ff00ff;
-            padding: 20px;
-        }
-        h1 {
-            text-align: center;
-            font-size: 4rem;
-            color: #00ff00;
-            text-shadow: 2px 2px 0 #ff0000;
-        }
-        .notice {
-            background: #ff0;
-            color: #000;
-            border: 4px solid #f00;
-            padding: 10px;
-            font-size: 1.2rem;
-            margin-bottom: 20px;
-        }
-        .box {
-            background: rgba(255,255,255,0.8);
-            border: 3px solid #00f;
-            padding: 15px;
-            margin-bottom: 20px;
-        }
-        .row {
-            display: flex;
-            justify-content: space-between;
-            gap: 10px;
-        }
-        .gif-card {
-            flex: 1;
-            text-align: center;
-            border: 4px double #0ff;
-            background: #ff99ff;
-            padding: 10px;
-        }
-        .gif-card img {
-            max-width: 100%;
-            border: 3px solid #000;
-        }
-        .blink {
-            animation: blink 1s infinite;
-        }
-        @keyframes blink {
-            0%, 50%, 100% { opacity: 1; }
-            25%, 75% { opacity: 0.2; }
-        }
-        marquee {
-            margin: 20px 0;
-            color: #ff00ff;
-            font-size: 1.5rem;
-            font-weight: bold;
-        }
-    </style>
+    <link rel="stylesheet" href="styles-new.css">
 </head>
 <body>
     <div class="wrapper">
@@ -78,7 +13,7 @@
         </div>
         <marquee behavior="alternate" scrollamount="10">Vielleicht sollte ich lernen selbee meine html seite zu schreiben.</marquee>
         <div class="box">
-            <h2 style="color:#ff0080;">Danke namenlose KI</h2>
+            <h2 class="pink-heading">Danke namenlose KI</h2>
             <p>mir fällt nichts mehr ein was ich schreiben könnte.</p>
         </div>
         <div class="row">
@@ -96,7 +31,7 @@
             </div>
         </div>
         <div class="box">
-            <h2 style="color:#00ffff;">Infos</h2>
+            <h2 class="cyan-heading">Infos</h2>
             <ul>
                 <li>Hintergrund: einfach nur eine weiße Wand</li>
                 <li>Rahmen: Japanisch</li>
