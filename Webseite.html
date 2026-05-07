@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <title>DERPhilib 2004 Retro Seite</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 20px;
+            background: linear-gradient(135deg, #ff00ff, #00ffff);
+            color: #000;
+            font-family: "Comic Sans MS", cursive, sans-serif;
+        }
+        .wrapper {
+            width: 900px;
+            margin: 0 auto;
+            border: 8px dashed yellow;
+            background: radial-gradient(circle, rgba(255,255,0,0.6), rgba(255,0,255,0.3));
+            box-shadow: 0 0 20px #ff00ff;
+            padding: 20px;
+        }
+        h1 {
+            text-align: center;
+            font-size: 4rem;
+            color: #00ff00;
+            text-shadow: 2px 2px 0 #ff0000;
+        }
+        .notice {
+            background: #ff0;
+            color: #000;
+            border: 4px solid #f00;
+            padding: 10px;
+            font-size: 1.2rem;
+            margin-bottom: 20px;
+        }
+        .box {
+            background: rgba(255,255,255,0.8);
+            border: 3px solid #00f;
+            padding: 15px;
+            margin-bottom: 20px;
+        }
+        .row {
+            display: flex;
+            justify-content: space-between;
+            gap: 10px;
+        }
+        .gif-card {
+            flex: 1;
+            text-align: center;
+            border: 4px double #0ff;
+            background: #ff99ff;
+            padding: 10px;
+        }
+        .gif-card img {
+            max-width: 100%;
+            border: 3px solid #000;
+        }
+        .blink {
+            animation: blink 1s infinite;
+        }
+        @keyframes blink {
+            0%, 50%, 100% { opacity: 1; }
+            25%, 75% { opacity: 0.2; }
+        }
+        marquee {
+            margin: 20px 0;
+            color: #ff00ff;
+            font-size: 1.5rem;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <div class="wrapper">
+        <h1>Willkommen bei DERPhilib</h1>
+        <div class="notice blink">
+            Diese Seite ist total 2004! Grell, blinkend und voller GIFs!
+        </div>
+        <marquee behavior="alternate" scrollamount="10">NEON PARTY 2004 - KLICK HIER FÜR MEHR WAHNSINN</marquee>
+        <div class="box">
+            <h2 style="color:#ff0080;">Unsere coolen Effekte</h2>
+            <p>Alles hier ist extra laut, bunt und ein bisschen chaotisch. Authentischer 2004-Webdesign-Look mit Tabellen, GIFs und knalligen Farben.</p>
+        </div>
+        <div class="row">
+            <div class="gif-card">
+                <h3>Animierter Stern</h3>
+                <img src="https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExc3oxMXFrYzd3bGxlZmwzdnYzZGNjMW5zaHYzY3Q3N2VnMGYzcTdqbCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ArAgo5dU2z2xO/giphy.gif" alt="Stern GIF">
+            </div>
+            <div class="gif-card">
+                <h3>Neon Wirbel</h3>
+                <img src="https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExYTByc3djeDNhYW9iMGxtM3NyaDg4eDI0dXRqdnducHR5Y2kyMGY1bCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/MvmEQiN3ABcVlJoyTY/giphy.gif" alt="Neon GIF">
+            </div>
+            <div class="gif-card">
+                <h3>Bunte Spirale</h3>
+                <img src="https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExcmNoaTN6aDd2YmpiOHdzbjdwNnV3MnppcjkxdTgwY2UycGFjYWsxdCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/MahwLPliaF1nF3hooQ/giphy.gif" alt="Spirale GIF">
+            </div>
+        </div>
+        <div class="box">
+            <h2 style="color:#00ffff;">Infos</h2>
+            <ul>
+                <li>Hintergrund: greller Farbverlauf</li>
+                <li>Rahmen: dick und knallig</li>
+                <li>Schrift: Comic Sans-Style</li>
+                <li>Extras: blinkender Text und bewegte GIFs</li>
+            </ul>
+        </div>
+    </div>
+</body>
+</html>
